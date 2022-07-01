@@ -32,32 +32,30 @@ The [**range**][range] is defined as the difference between the maximum and mini
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dnanrange
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-dnanrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.dnanrange;
-})();
-</script>
+var dnanrange = require( '@stdlib/stats-base-dnanrange' );
 ```
 
 #### dnanrange( N, x, stride )
@@ -161,16 +159,11 @@ var v = dnanrange.ndarray( N, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var Float64Array = require( '@stdlib/array-float64' );
+var dnanrange = require( '@stdlib/stats-base-dnanrange' );
 
 var x;
 var i;
@@ -187,11 +180,6 @@ console.log( x );
 
 var v = dnanrange( x.length, x, 1 );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -281,26 +269,27 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-dnanrange/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-dnanrange/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dnanrange/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-dnanrange/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dnanrange/main/LICENSE
 
 [range]: https://en.wikipedia.org/wiki/Range_%28statistics%29
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax/tree/umd
+[@stdlib/stats/base/dnanmax]: https://github.com/stdlib-js/stats-base-dnanmax
 
-[@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats-base-dnanmin/tree/umd
+[@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats-base-dnanmin
 
-[@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats-base-drange/tree/umd
+[@stdlib/stats/base/drange]: https://github.com/stdlib-js/stats-base-drange
 
-[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats-base-nanrange/tree/umd
+[@stdlib/stats/base/nanrange]: https://github.com/stdlib-js/stats-base-nanrange
 
-[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats-base-snanrange/tree/umd
+[@stdlib/stats/base/snanrange]: https://github.com/stdlib-js/stats-base-snanrange
 
 <!-- </related-links> -->
 
