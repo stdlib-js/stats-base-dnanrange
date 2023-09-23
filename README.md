@@ -50,6 +50,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
+import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dnanrange/tags). For example,
+
+```javascript
 import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@v0.1.0-esm/index.mjs';
 ```
 
@@ -163,7 +168,7 @@ var v = dnanrange.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@v0.1.0-esm/index.mjs';
+import dnanrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dnanrange@esm/index.mjs';
 
 var x;
 var i;
