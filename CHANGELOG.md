@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-01)
+## Unreleased (2025-01-06)
 
 <section class="features">
 
@@ -24,7 +24,7 @@
 
 -   [`d65bd1f`](https://github.com/stdlib-js/stdlib/commit/d65bd1f89e3839b7fdca9e9fec3262bb9ac9251c) - **docs:** update descriptions _(by Athan Reines)_
 -   [`12e1d48`](https://github.com/stdlib-js/stdlib/commit/12e1d48bb51971e6f66a6e7a0f1b9d58f117b49a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanrange` [(#4293)](https://github.com/stdlib-js/stdlib/pull/4293) _(by Aayush Khanna)_
--   [`04fda1b`](https://github.com/stdlib-js/stdlib/commit/04fda1b6f333b6ac26d2f4b65d903d25701e6877) - **refactor:** update `stats/base/dnanrange` native addon from C++ to C [(#4163)](https://github.com/stdlib-js/stdlib/pull/4163) _(by Vivek maurya)_
+-   [`04fda1b`](https://github.com/stdlib-js/stdlib/commit/04fda1b6f333b6ac26d2f4b65d903d25701e6877) - **refactor:** update `stats/base/dnanrange` native addon from C++ to C [(#4163)](https://github.com/stdlib-js/stdlib/pull/4163) _(by Vivek Maurya)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
@@ -45,7 +45,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
--   Vivek maurya
+-   Vivek Maurya
 
 </section>
 
