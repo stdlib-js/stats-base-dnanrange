@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-01-08)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`d65bd1f`](https://github.com/stdlib-js/stdlib/commit/d65bd1f89e3839b7fdca9e9fec3262bb9ac9251c) - **docs:** update descriptions _(by Athan Reines)_
 -   [`12e1d48`](https://github.com/stdlib-js/stdlib/commit/12e1d48bb51971e6f66a6e7a0f1b9d58f117b49a) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanrange` [(#4293)](https://github.com/stdlib-js/stdlib/pull/4293) _(by Aayush Khanna)_
 -   [`04fda1b`](https://github.com/stdlib-js/stdlib/commit/04fda1b6f333b6ac26d2f4b65d903d25701e6877) - **refactor:** update `stats/base/dnanrange` native addon from C++ to C [(#4163)](https://github.com/stdlib-js/stdlib/pull/4163) _(by Vivek Maurya)_
