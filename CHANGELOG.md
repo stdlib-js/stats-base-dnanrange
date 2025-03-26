@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-21)
+## Unreleased (2025-03-26)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`6050514`](https://github.com/stdlib-js/stdlib/commit/6050514b3f4b296931f4f614b56343fecc48ccda) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b644709`](https://github.com/stdlib-js/stdlib/commit/b64470944253e6c2be920aa4e066146bd9ab11f2) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`b78e8ba`](https://github.com/stdlib-js/stdlib/commit/b78e8ba6bdd1b97192878d9b780260a67a46be4d) - **docs:** update function description in JS benchmarks in `stats/base/*` [(#5135)](https://github.com/stdlib-js/stdlib/pull/5135) _(by Aayush Khanna)_
 -   [`93c884d`](https://github.com/stdlib-js/stdlib/commit/93c884d677c3c79c24a451a0f1badf45d8b6ee16) - **bench:** update `NaN` generation in `stats/base/*` [(#5044)](https://github.com/stdlib-js/stdlib/pull/5044) _(by Aayush Khanna)_
